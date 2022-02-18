@@ -1,0 +1,53 @@
+.banner {
+	&--wide-top {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 60px;
+		padding: 60px;
+		border-radius: 8px;
+		box-sizing: border-box;
+		background: $gradient--main;
+		color: $color--white;
+
+		article {
+			.cartegory {
+				margin-bottom: 16px;
+
+				font-size: 16px;
+				opacity: 0.7;
+			}
+			.title {
+				margin-bottom: 20px;
+
+				font-size: 40px;
+				font-weight: bold;
+				@media screen and (max-width: 768px) {
+					font-size: 32px;
+				}
+			}
+			.description {
+				margin-bottom: 24px;
+
+				font-size: 16px;
+				line-height: 27px;
+				max-width: 650px;
+			}
+		}
+
+		.btn {
+			font-size: 18px;
+
+			&--inline {
+				@media screen and (max-width: 768px) {
+					flex-direction: row;
+					flex-wrap: wrap;
+					row-gap: 15px;
+
+					.btn {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

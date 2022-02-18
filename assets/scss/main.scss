@@ -1,0 +1,46 @@
+@import './reset.scss';
+@import './fonts.scss';
+@import './variables.scss';
+
+@import './header.scss';
+@import './footer.scss';
+
+@import './buttons.scss';
+@import './banners.scss';
+
+@import './mainpage.scss';
+
+html,
+body {
+	font-family: 'PT Sans';
+	background: $color--gray;
+}
+
+.container,
+main {
+	width: 1920px;
+	max-width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	@media screen and (max-width: 1920px) {
+		width: 1440px;
+	}
+	@media screen and (max-width: 1440px) {
+		width: 1020px;
+	}
+	@media screen and (max-width: 1020px) {
+		width: 980px;
+	}
+	@media screen and (max-width: 980px) {
+		width: 768px;
+	}
+	@media screen and (max-width: 768px) {
+		width: 480px;
+	}
+	@media screen and (max-width: 480px) {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 20px;
+	}
+}
