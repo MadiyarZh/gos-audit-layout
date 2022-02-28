@@ -32,6 +32,28 @@ header {
 					align-items: flex-end;
 				}
 			}
+
+			.lang {
+				&--wrapper {
+					width: 100%;
+					max-width: 100%;
+					display: flex;
+					justify-content: end;
+				}
+				&--list {
+					display: inline-flex;
+					width: 100%;
+					justify-content: end;
+				}
+				&--item {
+					width: fit-content;
+					max-width: fit-content;
+					height: auto;
+				}
+				&--link {
+					padding: 16px 24px;
+				}
+			}
 		}
 		&--bottom {
 			.container {

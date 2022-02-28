@@ -80,7 +80,6 @@
 	&--list {
 		width: 100%;
 		max-width: 100%;
-		margin-top: 30px;
 		box-sizing: border-box;
 		display: flex;
 		flex-wrap: wrap;
@@ -88,6 +87,12 @@
 
 		margin-left: -15px;
 		margin-right: -15px;
+
+		@media screen and (max-width: 1020px) {
+			width: auto;
+			margin-left: 0;
+			margin-right: 0;
+		}
 
 		@media screen and (max-width: 768px) {
 			margin-left: auto;
@@ -112,8 +117,11 @@
 		background-color: $color--white;
 		&--wrapper {
 			max-width: 100%;
-			padding: 15px;
+			padding: 0 15px;
 			box-sizing: border-box;
+			@media screen and (max-width: 768px) {
+				padding: 0;
+			}
 		}
 	}
 
