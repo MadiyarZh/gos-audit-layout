@@ -7,10 +7,13 @@
 		<title>Gos audit | layout</title>
 
 		<link rel="stylesheet" href="./assets/css/main.min.css" />
-	</head>
+		
+		
+
+</head>
 	<body>
 		<header>
-			<div class="header--top"> ///
+			<div class="header--top">
 				<div class="container">
 					<div class="logo--wrapper">
 						<img
@@ -20,16 +23,26 @@
 							srcset=""
 						/>
 					</div>
+					
 					<div class="navigation--wrapper">
-						<div class="personal--wrapper"></div>
+						<div class="personal--wrapper">
+							<a href="#" class="personal--login">Войти</a>
+							&nbsp;/&nbsp;
+							<a href="#" class="personal--registr">Регистрация</a>
+						</button>
+						<img class="personal--svg" src="/assets/img/icons/user.svg" />
+							
+						</div>
 						<div class="lang--wrapper">
 							<ul class="lang--list">
 								<li class="lang--item"><a href="" class="lang--link">Kz</a></li>
 								<li class="lang--item"><a href="" class="lang--link">Ру</a></li>
 								<li class="lang--item"><a href="" class="lang--link">En</a></li>
 							</ul>
+
 						</div>
 					</div>
+					
 				</div>
 			</div>
 			<div class="header--bottom">
@@ -52,8 +65,8 @@
 					</div>
 					<div class="search--wrapper">
 						<form class="search--bar" action type="get">
-							<input type="text" placeholder="Пойск по сайту" />
-							<input type="submit" value="" />
+							<input class="search--input" type="text" placeholder="Пойск по сайту" />
+							<button class="search--button" type="submit"><img class="personal--svg" src="/assets/img/icons/search.svg" /></button>
 						</form>
 					</div>
 				</div>
@@ -216,16 +229,10 @@
 			<div class="container">
 				<div class="footer--left">
 					<div class="contact--info">
-						<div class="contact--item w-100">
+						<div class="contact--item w-50">
 							<div class="title--line">Приёмная директора</div>
 							<div class="link--line">
 								<a href="" class="link">+7 7172 74 17 33</a>
-							</div>
-						</div>
-						<div class="contact--item w-50">
-							<div class="title--line">Выпускающий редактор</div>
-							<div class="link--line">
-								<a href="" class="link">+7 7172 74 20 90</a>
 							</div>
 						</div>
 						<div class="contact--item w-50">
@@ -235,9 +242,9 @@
 							</div>
 						</div>
 						<div class="contact--item w-50">
-							<div class="title--line">Факс</div>
+							<div class="title--line">Выпускающий редактор</div>
 							<div class="link--line">
-								<a href="" class="link">+7 7172 74 25 58</a>
+								<a href="" class="link">+7 7172 74 20 90</a>
 							</div>
 						</div>
 						<div class="contact--item w-50">
@@ -246,6 +253,12 @@
 								<a href="" class="link">
 									Мәңгілік Ел, 8 "Дом министерств" 11 подъезд
 								</a>
+							</div>
+						</div>
+						<div class="contact--item w-50">
+							<div class="title--line">Факс</div>
+							<div class="link--line">
+								<a href="" class="link">+7 7172 74 25 58</a>
 							</div>
 						</div>
 					</div>
@@ -259,14 +272,19 @@
 						</div>
 					</div>
 					<div class="subscribe--wrapper">
-						<form action="" method="get" class="subscribe--from">
-							<div class="input--line">
-								<input type="text" placeholder="Email" />
+
+						<div action="" method="get" class="subscribe--from">
+							<div class="subscribe--contacts">
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="/assets/img/icons/icon-social-whatsapp.svg" /></a>
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="/assets/img/icons/icon-social-instagram.svg" /></a>
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="/assets/img/icons/icon-social-facebook.svg" /></a>
 							</div>
-							<div class="input--line">
-								<input type="submit" value="Подписаться" />
-							</div>
-						</form>
+							<form action="" class="subscribe--email">
+								<input class="subscribe--input" type="text" name="email" placeholder="Email" />
+								<input class="subscribe--btn" type="submit" value="Подписаться" />
+							</form>
+				
+						</div>
 					</div>
 				</div>
 				<div class="footer--bottom">

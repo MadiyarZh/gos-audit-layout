@@ -30,11 +30,13 @@ footer {
 						width: fit-content;
 						margin-right: auto;
 						opacity: 0.6;
+						padding-left: 50px;
 					}
 					&-dev {
 						width: fit-content;
 						margin-left: auto;
 						opacity: 0.6;
+						padding-right: 20px;
 					}
 				}
 			}
@@ -46,10 +48,9 @@ footer {
 			flex-direction: row;
 			flex-wrap: wrap;
 			row-gap: 30px;
+			padding-left: 50px;
+			
 			.w {
-				&-100 {
-					flex: 100%;
-				}
 				&-50 {
 					flex: 50%;
 					max-width: 50%;

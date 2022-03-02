@@ -44,3 +44,58 @@ main {
 		padding: 0 20px;
 	}
 }
+.subscribe {
+	&--from {
+		display: flex;
+		justify-content: end;
+		align-items: flex-end;
+		flex-direction: column;
+		gap: 40px;
+		padding-right: 20px;
+		
+
+	}
+	&--contacts {
+		display: flex;
+		gap: 40px;
+		transition: background-color .2s linear;
+		padding: 6px 13px;
+	}
+	&--contact:hover {
+		border-radius: 4px;
+		background-color: #5d5486;
+	}
+	&--email {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	&--input {
+		font-size: 16px;
+		line-height: 24px;
+		width: 287px;
+		border: unset;
+		outline: none;
+		border-bottom: 2px solid #e3e3e3;
+		transition: background-color .2s linear;
+	}
+	
+	&--btn {
+		display: flex;
+		align-self: flex-end;
+		padding: 8px 38px;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #111439;
+		background-color: #fff;
+		border-radius: 4px;
+		border: 2px solid #111439;
+		transition: background-color .2s linear;
+	}
+	&--btn:hover {
+		background-color: #cac7bb;
+	}
+
+}
