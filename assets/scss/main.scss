@@ -58,10 +58,14 @@ main {
 	&--contacts {
 		display: flex;
 		gap: 40px;
+		
+	}
+	&--contact{
 		transition: background-color .2s linear;
-		padding: 6px 13px;
+		padding: 6px 8px;
 	}
 	&--contact:hover {
+		opacity: 1s;
 		border-radius: 4px;
 		background-color: #5d5486;
 	}

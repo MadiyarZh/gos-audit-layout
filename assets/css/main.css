@@ -422,10 +422,6 @@ footer .footer--bottom .site--info-dev {
   padding-right: 10px;
 }
 
-footer .footer--bottom .dev--svg {
-  padding-right: 20px;
-}
-
 footer .contact--info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -965,12 +961,16 @@ main {
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
+}
+
+.subscribe--contact {
   -webkit-transition: background-color .2s linear;
   transition: background-color .2s linear;
-  padding: 6px 13px;
+  padding: 6px 8px;
 }
 
 .subscribe--contact:hover {
+  opacity: 1s;
   border-radius: 4px;
   background-color: #5d5486;
 }
