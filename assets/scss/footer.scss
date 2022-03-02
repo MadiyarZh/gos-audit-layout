@@ -36,12 +36,18 @@ footer {
 						width: fit-content;
 						margin-left: auto;
 						opacity: 0.6;
-						padding-right: 20px;
+						padding-right: 10px;
+
 					}
 				}
 			}
+			.dev--svg {
+				padding-right: 20px;
+
+			}
 		}
 	}
+	
 	.contact {
 		&--info {
 			display: flex;
