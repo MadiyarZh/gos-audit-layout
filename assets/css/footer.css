@@ -66,7 +66,7 @@ footer .contact--info {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  row-gap: 30px;
+  row-gap: 20px;
   padding-left: 50px;
 }
 
@@ -91,4 +91,86 @@ footer .contact--item {
 footer .contact--item .title--line {
   color: #111439;
   opacity: 0.6;
+}
+
+footer .subscribe--from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  padding-right: 20px;
+}
+
+footer .subscribe--contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+footer .subscribe--contact {
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  padding: 6px 8px;
+}
+
+footer .subscribe--contact:hover {
+  opacity: 1s;
+  border-radius: 4px;
+  background-color: #5d5486;
+}
+
+footer .subscribe--email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+footer .subscribe--input {
+  font-size: 16px;
+  line-height: 24px;
+  width: 287px;
+  border: unset;
+  outline: none;
+  border-bottom: 2px solid #e3e3e3;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+footer .subscribe--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 8px 38px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #111439;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid #111439;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+footer .subscribe--btn:hover {
+  background-color: #cac7bb;
 }

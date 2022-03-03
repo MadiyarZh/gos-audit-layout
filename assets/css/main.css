@@ -432,7 +432,7 @@ footer .contact--info {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  row-gap: 30px;
+  row-gap: 20px;
   padding-left: 50px;
 }
 
@@ -457,6 +457,88 @@ footer .contact--item {
 footer .contact--item .title--line {
   color: #111439;
   opacity: 0.6;
+}
+
+footer .subscribe--from {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+  padding-right: 20px;
+}
+
+footer .subscribe--contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+footer .subscribe--contact {
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  padding: 6px 8px;
+}
+
+footer .subscribe--contact:hover {
+  opacity: 1s;
+  border-radius: 4px;
+  background-color: #5d5486;
+}
+
+footer .subscribe--email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+footer .subscribe--input {
+  font-size: 16px;
+  line-height: 24px;
+  width: 287px;
+  border: unset;
+  outline: none;
+  border-bottom: 2px solid #e3e3e3;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+footer .subscribe--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 8px 38px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #111439;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 2px solid #111439;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+footer .subscribe--btn:hover {
+  background-color: #cac7bb;
 }
 
 .btn {
@@ -879,6 +961,81 @@ footer .contact--item .title--line {
   max-height: 100px;
 }
 
+.main--sections {
+  width: 1440px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sections {
+  width: 100%;
+  max-width: 100%;
+  padding: 40px 0px 40px 0px;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+.sections .sections--main {
+  opacity: 0.5;
+}
+
+.main_page {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  padding: 60px 100px;
+}
+
+.main_page .contacts--title {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+.main_page .contacts--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 70px;
+}
+
+.main_page .contacts--wrapper .left-side, .main_page .contacts--wrapper .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+
+.main_page .contacts--wrapper .left-side .contacts--item, .main_page .contacts--wrapper .right-side .contacts--item {
+  font-size: 16px;
+}
+
+.main_page .contacts--wrapper .left-side .contacts--item .contacts--title--line, .main_page .contacts--wrapper .right-side .contacts--item .contacts--title--line {
+  padding-bottom: 3px;
+  opacity: 0.5;
+}
+
+.main_page .contacts--wrapper .left-side .contacts--item .line--link, .main_page .contacts--wrapper .right-side .contacts--item .line--link {
+  color: #126AEF;
+}
+
+.main_page .contacts--wrapper .left-side .contacts--item--last, .main_page .contacts--wrapper .right-side .contacts--item--last {
+  padding-top: 60px;
+}
+
 html,
 body {
   font-family: 'PT Sans';
@@ -936,86 +1093,4 @@ main {
     max-width: 100%;
     padding: 0 20px;
   }
-}
-
-.subscribe--from {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 40px;
-  padding-right: 20px;
-}
-
-.subscribe--contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 40px;
-}
-
-.subscribe--contact {
-  -webkit-transition: background-color .2s linear;
-  transition: background-color .2s linear;
-  padding: 6px 8px;
-}
-
-.subscribe--contact:hover {
-  opacity: 1s;
-  border-radius: 4px;
-  background-color: #5d5486;
-}
-
-.subscribe--email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 20px;
-}
-
-.subscribe--input {
-  font-size: 16px;
-  line-height: 24px;
-  width: 287px;
-  border: unset;
-  outline: none;
-  border-bottom: 2px solid #e3e3e3;
-  -webkit-transition: background-color .2s linear;
-  transition: background-color .2s linear;
-}
-
-.subscribe--btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  padding: 8px 38px;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #111439;
-  background-color: #fff;
-  border-radius: 4px;
-  border: 2px solid #111439;
-  -webkit-transition: background-color .2s linear;
-  transition: background-color .2s linear;
-}
-
-.subscribe--btn:hover {
-  background-color: #cac7bb;
 }

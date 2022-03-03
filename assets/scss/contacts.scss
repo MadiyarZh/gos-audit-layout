@@ -1,0 +1,64 @@
+.main--sections {
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.sections {
+	width: 100%;
+	max-width: 100%;
+	padding: 40px 0px 40px 0px;
+	border-radius: 8px;
+	box-sizing: border-box;
+    font-size: 16px;
+    
+    .sections--main {
+        opacity: 0.5;
+    }
+}
+
+.main_page {
+	box-sizing: border-box;
+	background: #fff;
+	padding: 60px 100px;
+
+	.contacts {
+		&--title {
+			font-size: 28px;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding-bottom: 60px;
+		}
+		&--wrapper {
+			display: flex;
+			flex-direction: row;
+			gap: 70px;
+
+			.left-side, .right-side {
+				display: flex;
+				flex-direction: column;
+				gap: 20px;
+				width: 280px;
+				
+				.contacts--item {
+					font-size: 16px;
+					
+					
+					.contacts--title--line {
+						padding-bottom: 3px;
+						opacity: 0.5;
+					}
+					.line--link {
+						color: #126AEF;
+					}
+					
+
+				}
+				.contacts--item--last {
+					padding-top: 60px;
+				}
+			}
+
+		}
+	}
+}
+    
