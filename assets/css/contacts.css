@@ -1,5 +1,6 @@
 .main--sections {
   width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -20,6 +21,8 @@
 }
 
 .main_page {
+  width: 1440px;
+  margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #fff;
@@ -71,4 +74,50 @@
 
 .main_page .contacts--wrapper .left-side .contacts--item--last, .main_page .contacts--wrapper .right-side .contacts--item--last {
   padding-top: 60px;
+}
+
+.main_page {
+  width: 1920px;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 1920px) {
+  .main_page {
+    width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main_page {
+    width: 1020px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .main_page {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .main_page {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_page {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main_page {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
 }
