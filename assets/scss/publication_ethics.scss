@@ -3,9 +3,8 @@
 	flex-direction: column;
 
 	&--title {
-		padding: 60px 300px 60px 100px;
 		font-size: 28px;
-		margin: 60px 0px;
+		margin: 0px 0px 60px;
 		font-weight: bold;
 	}
 
@@ -13,25 +12,24 @@
 	&--item {
 		display: flex;
 		flex-direction: column;
-		padding: 54px 100px;
+		padding: 0px;
 		border: unset;
 		
 		outline: none;
 		transition: background-color .2s linear;
-		
-		 
 	}
 	
 	&--link {
 		width: 773px;
-		
+		position: relative;
 		border: unset;
 		border-bottom: 3px solid #e3e3e3;
 		cursor: pointer;
-		padding: 3px;
+		padding: 20px 0px;
 		font-weight: bold;
 		font-size: 18px;
 		line-height: 23px;
+		transition: 750ms;
 
 		
 		.ion-icon {
@@ -39,15 +37,10 @@
 		
 		}
 		.add-outline {
-			padding-left: 760px;
-			
+			position: absolute;
+			right: 0;
+			transition: 0.75s;
 		}
-		.remove-outline {
-			padding-left: 760px;
-			display: none;
-			
-		}
-		
 	}
 	&--answer {
 		width: 773px;
@@ -62,10 +55,9 @@
 	&--answer {
 
 		p {
-		
 			font-size: 18px;
+			line-height: 23px;
 			padding: 10px 0px;
-
 		}
 		
 		ul {
@@ -87,18 +79,20 @@
 
 	} 
 
-.publication--item.active .publication--answer {
-	max-height: 100rem;
-	
-}
+	.publication--item.active {
 
-.publication--item.active .publication--link .add-outline{
-display: none;
-}
+		.publication--answer {
+			max-height: 100rem;
+		}
 
-.publication--item.active .publication--link .remove-outline{
-display: block;
+		.publication--link {
+			border-bottom: none;
+			transition: 0.75s;
 
-}
-
+			.add-outline{
+				transform: rotate(45deg);
+				transition: 0.75s;
+			}
+		}
+	}
 }

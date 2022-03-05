@@ -18,18 +18,18 @@
 }
 
 .main_page {
-	width: 1440px;
     margin: 0 auto;
 	box-sizing: border-box;
 	background: #fff;
 	padding: 60px 100px;
 
 	.contacts {
+
 		&--title {
 			font-size: 28px;
 			text-transform: uppercase;
 			font-weight: bold;
-			padding-bottom: 60px;
+			margin: 0px 0px 60px;
 		}
 		&--wrapper {
 			display: flex;
@@ -67,26 +67,10 @@
 }
 
 .main_page {
-	width: 1920px;
 	max-width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
 
-	@media screen and (max-width: 1920px) {
-		width: 1440px;
-	}
-	@media screen and (max-width: 1440px) {
-		width: 1020px;
-	}
-	@media screen and (max-width: 1020px) {
-		width: 980px;
-	}
-	@media screen and (max-width: 980px) {
-		width: 768px;
-	}
-	@media screen and (max-width: 768px) {
-		width: 480px;
-	}
 	@media screen and (max-width: 480px) {
 		width: 100%;
 		max-width: 100%;
