@@ -65,6 +65,7 @@
 		
 			font-size: 18px;
 			padding: 10px 0px;
+
 		}
 		
 		ul {
@@ -77,6 +78,12 @@
 				margin: 10px 0px;
 			}
 		}
+		strong {
+			font: revert !important;
+			font-weight: bold !important;
+		}
+		
+		
 
 	} 
 

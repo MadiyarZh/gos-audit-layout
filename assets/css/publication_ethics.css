@@ -74,6 +74,11 @@
   margin: 10px 0px;
 }
 
+.publication--answer strong {
+  font: revert !important;
+  font-weight: bold !important;
+}
+
 .publication .publication--item.active .publication--answer {
   max-height: 100rem;
 }
