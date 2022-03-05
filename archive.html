@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gos audit | layout</title>
+
+		<link rel="stylesheet" href="./assets/css/main.min.css" />
+		
+		
+
+</head>
+	<body>
+		<header>
+			<div class="header--top">
+				<div class="container">
+					<div class="logo--wrapper">
+						<img height="120px" src="./assets/img/Esep logo 1.svg" alt="" srcset=""/>
+					</div>
+					
+					<div class="navigation--wrapper">
+						<div class="personal--wrapper">
+							<a href="#" class="personal--login">Войти</a>
+							&nbsp;/&nbsp;
+							<a href="#" class="personal--registr">Регистрация</a>
+						
+						<img class="personal--svg" src="./assets/img/icons/user.svg" />
+							
+						</div>
+						<div class="lang--wrapper">
+							<ul class="lang--list">
+								<li class="lang--item"><a href="" class="lang--link">Kz</a></li>
+								<li class="lang--item active"><a href="" class="lang--link">Ру</a></li>
+								<li class="lang--item"><a href="" class="lang--link">En</a></li>
+							</ul>
+
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="header--bottom">
+				<div class="container">
+
+                    <!-- Mobile burger menu -->
+
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class='menu-button-container' for="menu-toggle">
+                            <div class='menu-button'></div>
+                        </label>
+
+                    <!-- end Mobile burger menu -->
+
+					<div class="header-nav" id="myTopnav">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Сведения о журнале 
+                                <i class=""><img src="assets/img/icons/down-arrow-icon.svg" alt=""></i>
+                            </a>
+                            <div class="dropdown-content d-flex">
+                                <div class="left-side">
+                                    <a href="#">Свидетельство о постановке на учет</a>
+                                    <a href="#">Справка АО "НЦГНТЭ"</a>
+                                    <a href="#">Редакционная политика</a>
+                                    <a href="#">Публикационная этика</a>
+                                    <a href="#">Редакционная коллегия</a>
+                                    <a href="contacts.html">Контакты</a>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Авторам 
+                                <i class=""><img src="assets/img/icons/down-arrow-icon.svg" alt=""></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#">Руководство по оформлению статьи</a>
+                                <a href="#">Инструкция по подачи статьи</a>
+                                <a href="#">Инструкция по отзыву или исправлению статей</a>
+                                <a href="#">Макет статьи</a>
+                                <a href="#">Оплата организационного взноса</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Рецензентам 
+                                <i class=""><img src="assets/img/icons/down-arrow-icon.svg" alt=""></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#">Тип и порядок рецензирования</a>
+                                <a href="#">Инструкция для рецензентов</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropbtn" href="contact.html">
+                                Архив
+                            </a>
+                        </div>
+                        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                    </div>
+					<div class="search--wrapper">
+						<form class="search--bar" action type="get">
+							<input class="search--input" type="text" placeholder="Пойск по сайту" />
+							<button class="search--button" type="submit"><img class="personal--svg" src="./assets/img/icons/search.svg" /></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="breadcrumb">
+            <div class="container">
+                <div class="breadcrumb-item">
+                    <a href="index.html">Главная</a>
+                </div>
+                <div class="breadcrumb-item">
+                    <i>|</i>
+                    <a href="#">Сведения о журнале</a>
+                </div>
+                <!-- <div class="breadcrumb-item">
+                    <i>|</i>
+                    page
+                </div> -->
+            </div>
+        </div>
+        <main class="main_page">
+            <div class="container">
+                <section class="archive--sections">
+                    <div class="archive-form-block">
+                        <form action="" class="form-filter">
+                            <div class="select-year">
+                                <div>
+                                    <input class="checked-year" type="radio" id="2010"
+                                    name="year" value="2010">
+                                    <label for="2010">2010</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2011"
+                                    name="year" value="2011">
+                                    <label for="2011">2011</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2012"
+                                    name="year" value="2012">
+                                    <label for="2012">2012</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2013"
+                                    name="year" value="2013">
+                                    <label for="2013">2013</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2014"
+                                    name="year" value="2014" checked>
+                                    <label for="2014">2014</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2015"
+                                    name="year" value="2015">
+                                    <label for="2015">2015</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2016"
+                                    name="year" value="2016">
+                                    <label for="2016">2016</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2017"
+                                    name="year" value="2017">
+                                    <label for="2017">2017</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2018"
+                                    name="year" value="2018">
+                                    <label for="2018">2018</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2019"
+                                    name="year" value="2019">
+                                    <label for="2019">2019</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2020"
+                                    name="year" value="2020">
+                                    <label for="2020">2020</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2021"
+                                    name="year" value="2021">
+                                    <label for="2021">2021</label>
+                                </div>
+                                <div class="circle"></div>
+                                <div>
+                                    <input class="checked-year" type="radio" id="2022"
+                                    name="year" value="2022">
+                                    <label for="2022">2022</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="document-download-block">
+                        <div class="document-item">
+                            <img class="document-img" src="assets/img/archive-image-1.png" alt="">
+                            <h3 class="document-name">
+                                <a href="#">
+                                    №1 (38) 2018
+                                </a>
+                            </h3>
+                            <a href="#">
+                                <img src="assets/img/icons/download-icon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="document-item">
+                            <img class="document-img" src="assets/img/archive-image-2.png" alt="">
+                            <h3 class="document-name">
+                                <a href="#">
+                                    №2 (39) 2018
+                                </a>
+                            </h3>
+                            <a href="#">
+                                <img src="assets/img/icons/download-icon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="document-item">
+                            <img class="document-img" src="assets/img/archive-image-3.png" alt="">
+                            <h3 class="document-name">
+                                <a href="#">
+                                    №3 (40) 2018
+                                </a>
+                            </h3>
+                            <a href="#">
+                                <img src="assets/img/icons/download-icon.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="document-item">
+                            <img class="document-img" src="assets/img/archive-image-4.png" alt="">
+                            <h3 class="document-name">
+                                <a href="#">
+                                    №4 (41) 2018
+                                </a>
+                            </h3>
+                            <a href="#">
+                                <img src="assets/img/icons/download-icon.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+		<footer>
+			<div class="container">
+				<div class="footer--left">
+					<div class="contact--info">
+						<div class="contact--item w-50">
+							<div class="title--line">Приёмная директора</div>
+							<div class="link--line">
+								<a href="" class="link">+7 7172 74 17 33</a>
+							</div>
+						</div>
+						<div class="contact--item w-50">
+							<div class="title--line">Электронная почта</div>
+							<div class="link--line">
+								<a href="" class="link">journal@gov-audit.kz</a>
+							</div>
+						</div>
+						<div class="contact--item w-50">
+							<div class="title--line">Выпускающий редактор</div>
+							<div class="link--line">
+								<a href="" class="link">+7 7172 74 20 90</a>
+							</div>
+						</div>
+						<div class="contact--item w-50">
+							<div class="title--line">Адрес</div>
+							<div class="link--line">
+								<a href="" class="link">
+									г. Нур-Султан, Мәңгілік Ел, 8 "Дом министерств" 11 подъезд.
+								</a>
+							</div>
+						</div>
+						<div class="contact--item w-50">
+							<div class="title--line">Факс</div>
+							<div class="link--line">
+								<a href="" class="link">+7 7172 74 25 58</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer--right">
+					<div class="subscribe--wrapper">
+
+						<div action="" method="get" class="subscribe--from">
+							<div class="subscribe--contacts">
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="./assets/img/icons/icon-social-whatsapp.svg" /></a>
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="./assets/img/icons/icon-social-instagram.svg" /></a>
+								<a href="#" class="subscribe--contact" type="submit"><img class="personal--svg" src="./assets/img/icons/icon-social-facebook.svg" /></a>
+							</div>
+							<form action="" class="subscribe--email">
+								<input class="subscribe--input" type="text" name="email" placeholder="Email" />
+								<input class="subscribe--btn" type="submit" value="Подписаться" />
+							</form>
+				
+						</div>
+					</div>
+				</div>
+				<div class="footer--bottom">
+					<div class="site--info-c">
+						Copyright © gov-audit 2022 г. Все права защищены.
+					</div>
+					<div class="site--info-dev">
+						<a href="" target="_blank">Разработка сайта — Zerone Technology</a>
+					</div>
+					<img class="dev--svg" src="./assets/img/icons/logo-zerone.svg" />
+					
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

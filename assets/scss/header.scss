@@ -144,16 +144,25 @@ header {
 			}
 		}
 	}
+
+	.header--bottom {
+		.container {
+			align-items: flex-start;
+			justify-content: space-between;
+
+			.search--wrapper {
+				width: auto;
+			}
+		}
+	}
 }.search--input {
 	width: 190px;
-	height: 30px;
 	border: unset;
 	outline: none;
 	font-size: 15px;
 }
 
 .search--button {
-	height: 40px;
 	border: unset;
 	outline: none;
 	background-color: #fff;
