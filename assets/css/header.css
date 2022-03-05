@@ -4,7 +4,6 @@ header {
 }
 
 header .header--top .container {
-  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,6 +13,8 @@ header .header--top .container {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: #fff;
+  padding: 40px 40px 0 56px;
 }
 
 header .header--top .logo--wrapper,
@@ -44,10 +45,94 @@ header .header--top .navigation--wrapper {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+
+header .header--top .personal--wrapper {
+  width: 50%;
+  max-width: 50%;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+header .header--top .personal--wrapper .personal--registr {
+  padding-right: 30px;
+}
+
+header .header--top .personal--login:hover {
+  color: #131f41;
+  text-decoration: underline;
+}
+
+header .header--top .personal--registr:hover {
+  color: #131f41;
+  text-decoration: underline;
+}
+
+header .header--top .lang--wrapper {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .header--top .lang--list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 20px;
+  font-size: 18px;
+}
+
+header .header--top .lang--item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  color: black;
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+header .header--top .lang--link {
+  padding: 6px 13px;
+}
+
+header .header--top .lang--item:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .header--top .lang--item:hover a {
+  background-color: #131f41;
 }
 
 header .header--bottom .container {
-  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +142,8 @@ header .header--bottom .container {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: #fff;
+  padding: 40px;
 }
 
 header .header--bottom .menu--wrapper,
@@ -102,7 +189,28 @@ header .header--bottom .search--wrapper {
           align-items: flex-end;
 }
 
-.container {
-  max-width: 100%;
-  margin: 0 150px;
+.search--input {
+  width: 190px;
+  height: 30px;
+  border: unset;
+  outline: none;
+  font-size: 15px;
+}
+
+.search--button {
+  height: 40px;
+  border: unset;
+  outline: none;
+  background-color: #fff;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+.search--button:hover {
+  border-radius: 4px;
+  background-color: #cac7bb;
+}
+
+.search--bar {
+  border-bottom: 2px solid #e3e3e3;
 }
