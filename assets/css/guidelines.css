@@ -11,3 +11,8 @@
   list-style: disc;
   margin: 10px 0px;
 }
+
+.guidelines strong {
+  font: revert !important;
+  font-weight: bold !important;
+}

@@ -1214,6 +1214,11 @@ footer .subscribe--btn:hover {
   margin: 10px 0px;
 }
 
+.guidelines strong {
+  font: revert !important;
+  font-weight: bold !important;
+}
+
 html,
 body {
   font-family: 'PT Sans';
